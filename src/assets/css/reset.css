@@ -1,0 +1,33 @@
+article,
+aside,
+body,
+dd,
+div,
+dl,
+dt,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+img,
+li,
+main,
+nav,
+p,
+section,
+span,
+table,
+td,
+tr,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}

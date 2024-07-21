@@ -1,0 +1,103 @@
+.text-desc {
+    font-family: PingFangSC-Regular, sans-serif;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #111;
+    opacity: 0.8;
+}
+
+.text-bold {
+    font-family: PingFangSC-Medium, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #111;
+    margin-bottom: 24px;
+}
+
+.main-container {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.index-left, .index-right {
+    width: 48%;
+}
+
+@media screen and (max-width: 1600px) {
+    .main-container {
+        width: 100%;
+        padding: 0 48px;
+        box-sizing: border-box;
+    }
+}
+
+li {
+    list-style: none;
+}
+
+.comments-container, .grow-container,
+.culture-container, .job-container, .memory-container,
+.product-container, .team-container {
+    padding: 80px 0;
+}
+
+@font-face {
+    font-family: 'HYYaKuHei';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('HYYaKuHei-95J'), url(../fonts/HYYaKuHei-95J.woff2) format('woff2')
+}
+
+@media screen and (max-width: 1300px) {
+    .comments-container, .grow-container,
+    .culture-container, .job-container, .memory-container,
+    .product-container, .team-container {
+        padding: 45px 0 !important;
+    }
+
+    .index-left, .index-right {
+        width: 49%;
+    }
+
+    .text-bold {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+
+    .text-desc {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .main-container {
+        padding: 0 24px
+    }
+
+    .comments-container, .grow-container,
+    .culture-container, .job-container, .memory-container,
+    .product-container, .team-container{
+        padding: 32px 0 !important;
+    }
+
+    .index-container {
+        flex-direction: column-reverse;
+    }
+    .index-left, .index-right {
+        width: 100%;
+    }
+    .text-desc {
+        margin-bottom: 27px;
+    }
+}
+
+
+
